@@ -1,0 +1,109 @@
+body,h1,h2,h3,h4,h5,p {
+    font-family: 'Montserrat', sans-serif;
+}
+html body {
+    overflow-x: hidden;
+}
+.bg {
+    background-image: url("bg1.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+.main {
+    color:  #0030cc;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 80%;
+    margin-bottom: 5%;
+}
+.my_title {
+    padding-top: 15%;
+    padding-bottom: 10%;
+    line-height: 10px;
+    background-image: url("bg2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.line {
+    height: 5px;
+    background-color: #b99ce5;
+    width: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.edu-icon img {
+    height: 2rem;
+    width: auto;
+}
+.nav {
+    position: fixed;
+    z-index: 10;
+}
+
+.nav-pills>a.nav-link.active{
+    background-color: #0030cc;
+    color: #ffffff;
+    transition-duration: 0.4s;
+    }
+.nav-pills>a.nav-link.active:hover{
+    background-color: #ffffff;
+    color:#0030cc;
+    }
+.nav-pills>a.nav-link{
+    color: #0030cc;
+    background-color: #ffffff;
+    border-radius: 0%;
+    transition-duration: 0.4s;
+    }
+.nav-pills>a.nav-link:hover{
+    background-color: #0030cc;
+    color:#ffffff;
+        }
+.content {
+    width: 80%;
+}
+.bio-bg {
+    margin: 0 -9999rem ;
+  /* add back negative margin value */
+    padding: 5rem 9999rem 5rem;
+    background-color:#dee2ec ;
+}
+.bio-photo img{
+    height: 300px;
+}
+button {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff;
+    color: #0030cc;
+    border: 3px solid #0030cc; 
+    transition-duration: 0.4s;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.experience-content button {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0030cc;
+    color: white;
+    border: 3px solid #ffffff; 
+    transition-duration: 0.4s;
+    font-size: 16px;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.experience-content button:hover {
+    background-color: #ffffff;
+    border-radius: 10px; 
+    color: #0030cc;
+    border: 3px solid #0030cc; 
+}
