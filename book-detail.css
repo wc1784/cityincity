@@ -1,0 +1,40 @@
+.book-detail {
+    margin: auto;
+    width: 75%;
+}
+.book-detail h1 {
+    color: #2E1437;
+}
+.book-detail-container {
+    grid-template-areas: "bi bin bin bin";
+    display: grid;
+
+}
+.book-img{
+    grid-area: bi;
+    text-align: center;
+}
+.book-img img{
+    height: 300px;
+}
+.book-info{
+    grid-area: bin;
+}
+.book-review ul li {
+    list-style: none;
+}
+.book-review li {
+    padding: 2%;
+    background-color: #dddddd;
+    border-radius: 6px;
+    margin-bottom: 5px;
+}
+.write-review {
+    margin: auto;
+    width: 75%;
+    margin-bottom: 5%;
+}
+.write-review textarea{
+    width: 100%;
+    font-family: "Open Sans",sans-serif;
+}
