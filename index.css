@@ -5,7 +5,7 @@ html body {
     overflow-x: hidden;
 }
 .bg {
-    background-image: url("bg1.png");
+    background-image: url("index-resources/bg1.png");
     background-size: 70%;
     background-repeat: no-repeat;
 }
@@ -23,7 +23,7 @@ html body {
     padding-top: 15%;
     padding-bottom: 10%;
     line-height: 10px;
-    background-image: url("bg2.png");
+    background-image: url("index-resources/bg2.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
@@ -38,6 +38,12 @@ html body {
 .edu-icon img {
     height: 2rem;
     width: auto;
+}
+
+.email-icon img {
+    height: 2rem;
+    width: auto;
+    text-align: center;
 }
 .nav {
     position: fixed;
@@ -58,6 +64,7 @@ html body {
     background-color: #ffffff;
     border-radius: 0%;
     transition-duration: 0.4s;
+    padding: 1rem;
     }
 .nav-pills>a.nav-link:hover{
     background-color: #0030cc;
@@ -88,6 +95,17 @@ button {
     text-decoration: none;
     display: inline-block;
 }
+.experience-title {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.skills {
+    padding: 4rem 0 4rem;
+}
+.skill-title {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
 
 .experience-content button {
     font-family: 'Montserrat', sans-serif;
@@ -100,10 +118,70 @@ button {
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    margin-bottom: 2rem;
 }
 .experience-content button:hover {
     background-color: #ffffff;
     border-radius: 10px; 
     color: #0030cc;
     border: 3px solid #0030cc; 
+}
+.experience-content h5 {
+    background-color: #dde2ea;
+    margin-top: 2rem;
+}
+.progress-bar{
+    width:47%;
+    height: 5px;
+    background-color: #dde2ea;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}
+.progress{
+    width: 60%;
+    height: 100%;
+    background-color: #0030cc;
+    border-radius: 3px;
+}
+.skill-content ul li {
+    float: left;
+    width: 50%;
+    list-style: none;
+    margin-bottom: 1rem;
+}
+.skill-content {
+    margin-top: 3rem;
+    background-color: #ffffff;
+    padding: 2rem 0 ;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.skill-content p {
+    margin-bottom: 0;
+}
+.skill-content ul li:nth-child(even) {
+    float: right;
+}
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.footer {
+    background-color: #dee2ea;
+    padding: 5rem 0 5rem;
+    margin: auto;
+}
+.footer>.footer-content {
+    width: 80%;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #0030cc;
+}
+.sm-icon img{
+    height: 2rem;
+    width: auto;
+    margin-right: 1rem;
 }
