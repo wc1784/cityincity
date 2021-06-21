@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="stylesheet" type="text/css" href="index.css"/>
+        <link rel="stylesheet" type="text/css" href="project.css"/>
+
+        <title>Projects - Wenyue Cheng</title>
+    </head>
+<body>
+    <div class="bg">
+        <div class="main">
+        <div class="my_title">
+        <h2 class="animate__animated animate__fadeInUp" style="font-size: 50px;font-weight: 700;">My</h2>
+        <h1 class="animate__animated animate__fadeInUp" style="font-size: 70px;font-weight: 700;">Projects</h1>
+        <div class="line"></div>
+        </div>
+        <div class="projects">
+            <div class="accordion accordion-flush" id="accordionFlush">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Reader Sam’s Online Book Review Web Application
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body"><p>From database to web application, this prototype presents a book review web application. The database was designed based on a book storage and users management needs.</p>
+                        <a href="home.html"><button>See the Prototype</button></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Research on the Support Vector Machine (SVM) Task Pricing Model for Crowdsourcing
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body"><p>With the rapid development of the Internet, the labor crowdsourcing model based on mobile platforms gathers the power of the public to ensure the authenticity of survey data. By setting up a reasonable remuneration for tasks, the company can make greater profits.</p>
+                        <p>By consulting related literature, we found that although the crowdsourcing model in the Internet age is developing hotly, many large enterprises and companies have developed through the power of netizens, but due to the irrationality of task remuneration, enterprise development is at risk, so according to the users themselves Information and specific task information to formulate a reasonable task pricing plan is imminent. This project focuses on the issue of using the power of netizens to conduct market surveys, and formulates remuneration for different tasks based on crowdsourcing theory.</p>
+                        <p>The essence of "making money by taking pictures" through APP is the completion of the big task of market research through the collaboration of users. Since each task and each user has a different geographic location, the task remuneration is determined according to the completion of each small task and the member information. This article needs to address the following issues:
+                        <ul>
+                            <li>According to the data information, establish the corresponding mathematical model and use multiple indicators to solve the rule of task pricing. At the same time, analyze the reasons for the uncompleted tasks based on the specific conditions of the different task areas;</li>
+                            <li>According to the obtained price law, the task pricing plan is improved according to the actual situation of the region, and the improved plan is compared with the plan in Annex 1 and the results are evaluated and discussed;</li> 
+                            <li>Due to the immersion of tasks and users, some tasks with low expectations cannot be completed on time, so consider “bundling” completed tasks with uncompleted tasks. First, classify the task data according to certain indicators, then establish a suitable mathematical model to realize the "bundle release" of the task, and compare the task completion status after the modified model with the task completion status of the second question;</li> 
+                            <li>According to the new task geographic information in Annex 3 and the basic information of the members in Annex 2, we draw on the pricing questions of the previous three questions to formulate a new task remuneration plan, and set the pricing of new tasks from two aspects: no packaging and packaging. At the same time, the expected task completion rate is calculated and compared with the original task completion rate.</li></p>
+                        </ul>
+                       <p>In the first question, according to the data information in Annexes 1 and 2, the XGeocoding software is used to determine the task,The member's coordinate position is determined by LINGO. Select each task, member's areaTraffic advantage degree, economic development degree, membership density n j , task density, reputation densityAnd task pricing c j six indicators. Consider task pricing as a dependent variable, and use the R language to perform Pearson's test.Analyze the correlation between the other five indicators. The results show the degree of transportation advantage, economic development and credibilityThe correlation coefficients between degree and task pricing are -0.48, -0.72 and -0.29, respectively. Among them, the degree of economic development is related toThe strongest sex, and the degree of membership intensiveness and task intensiveness has no obvious relationship with pricing. Then use SPSS softBinary Logistic regression is performed on the items, and the task completion status is investigated according to the regression coefficients. Among the tasks setThe regression coefficients of price, economic development, transportation advantage and completion are 1.089, -3.209 and-1.562; The completion situation is not highly dependent on the degree of membership density, credibility density and task density. RenThe lower the service price, the higher the degree of economic development and the higher the degree of transportation advantage, the more unsatisfactory the completion of the task.</p>
+                       <p>In response to question 2, on the basis of the six indicators of question 16, according to the theory of “labor supply”,For completed tasks, increase prices to stimulate supply, and appropriately lower prices for completed tasks to increase corporate welfare.Profit. We select the attribute values ​​of all tasks as the training set, determine 0.5 yuan as the minimum floating price, and use supportAfter 40 iterations of the vector machine, the task completion status after the corresponding price fluctuation is obtained. According to RenThe volatility curve of service completion rate. When the pricing fluctuates by 10-12 price units, the price fluctuates at 5-6Yuan, the task completion rate is the largest at 86.47%, which is 38.33% higher than the 62.51% completion rate of the original task.When the price fluctuates by 5.5 yuan, the cost of the enterprise is the smallest. At this time, the highest task is priced at 79.5 yuan, and the lowest task isThe service price is 70.5 yuan, and the cost of the enterprise has been reduced by 17.5%.</p>
+                       <p>Question three, consider the competition among members for tasks in reality, and use the five indicators in question oneThe OLS method fits the weights, and calculates the hot index of the task based on the weight. The hot index reflects the task’sPopularity. Drawing lessons from the concept of "bundling sales" in economics, the popular tasks and unpopular tasks are carried outPackage and reduce task pricing from the perspective of the enterprise. Includes indicator data for completed and uncompleted tasks,Weight the five indicators of the packaged taskjDetermine the new task price after ω. Consider the average of membersThe predetermined task quota is 6.835, so three types of "one belt and one", "two belts and one", and "three belts and three" are proposed.Packaged and tested with libsvm, the task completion rates were 70.024%, 94.245%, and 81.75%, respectively.The “two belts and one” missions have the best completion rate.</p>
+                       <p>In response to question four, we continue the model of the first three questions to complete the task of formulating a new task pricing planRate forecast. According to the characteristics of the new data, the area is limited to Guangzhou and Shenzhen. According to the five indicators, useOLS regression prediction and SVM respectively solve the pricing of the corresponding tasks. Because of the "two belts one" in question threeThe packaging effect is the best, so we find the pricing range (50.54, 55.76) and "two belts one"The pricing range of the plan (85.68, 120) . The task completion rate R is selected as the evaluation index, and the determination is obtained through SVMPrice model R=0.87, the original project R=0.60, R>R 0 , that is, the implementation effect of the plan is better.</p>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            
+            
+        </div>
+        </div>
+</body>
+</html>
